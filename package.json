@@ -1,0 +1,28 @@
+{
+  "name": "@isekai/template",
+  "version": "0.0.1",
+  "description": "Degit template for [ISEKAI_ENGINE]",
+  "main": ".BIN/features.js",
+  "bin": {
+    "@isekai/template": ".BIN/cli.js"
+  },
+  "scripts": {
+    "start": "isekai run"
+  },
+  "dependencies": {
+    "isekai": "0.0.4"
+  },
+  "devDependencies": {
+    "@isekai/eslint-config": "^1.0.0",
+    "eslint": "^5.15.3"
+  },
+  "eslintConfig": {
+    "extends": "@isekai"
+  },
+  "author": "AGoblinKing",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekai-dev/template.git"
+  }
+}
