@@ -1,16 +1,18 @@
 {
   "name": "@isekai/template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Degit template for [ISEKAI_ENGINE]",
-  "main": ".BIN/features.js",
   "bin": {
     "@isekai/template": ".BIN/cli.js"
   },
   "scripts": {
+    "build": "isekai build",
+    "watch": "isekai watch",
     "start": "isekai run"
   },
   "dependencies": {
-    "isekai": "0.0.4"
+    "isekai": "0.0.4",
+    "@isekai/core": "^1.0.0"
   },
   "devDependencies": {
     "@isekai/eslint-config": "^1.0.0",
