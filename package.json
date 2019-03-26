@@ -1,17 +1,14 @@
 {
   "name": "@isekai/template",
   "version": "0.0.2",
-  "description": "Degit template for [ISEKAI_ENGINE]",
-  "bin": {
-    "@isekai/template": ".BIN/cli.js"
-  },
+  "description": "An amazing isekai package",
   "scripts": {
     "build": "isekai build",
     "watch": "isekai watch",
     "start": "isekai run"
   },
   "dependencies": {
-    "isekai": "0.0.4",
+    "isekai": "^0.0.4",
     "@isekai/core": "^1.0.0"
   },
   "devDependencies": {
