@@ -1,6 +1,6 @@
 {
   "name": "@isekai/template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An amazing isekai package",
   "scripts": {
     "build": "isekai build",
@@ -8,8 +8,8 @@
     "start": "isekai run"
   },
   "dependencies": {
-    "isekai": "^0.0.4",
-    "@isekai/core": "^1.0.0"
+    "isekai": "isekai-dev/engine",
+    "@isekai/core": "isekai-dev/core"
   },
   "devDependencies": {
     "@isekai/eslint-config": "^1.0.0",
